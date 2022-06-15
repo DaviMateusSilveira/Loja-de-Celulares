@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Laricell | Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" type="imagex/png" href="images/logoGuia.png">
+</head>
+<body class="index">
+	<main>
+		<section id="cabecalhoPagina">
+			<header id="cabecalho">
+				<figure>
+					<img src="images/logocerta.png" alt="logo da página" id="logo" onclick="redirectHome()">
+				</figure>
+				<nav id="menuPrincipal">
+					<ul id="listaMenu">
+						<li><a onclick="redirectHome()">Home</a></li>
+						<li><a onclick="redirectProduto()">Produtos</a></li>
+						<li><a onclick="redirectSobre()">Sobre</a></li>
+						<li><a onclick="redirectSobre()">Contato</a></li>
+						<li><button class="login" onclick="redirectLogin()">Login</button></li>
+						<li><button class="register" onclick="redirectRegistro()">Register</button></li>
+					</ul>
+				</nav>
+				<figure>
+					<img src="images/cart.png" alt="Imagem carrinho de compras" id="carrinhoCompras">
+				</figure>
+			</header>
+			<section class="row">
+				<section class="col-2">
+					<h1>Qualidade excepcional<br>para momentos sem igual!</h1>
+					<p>Seja no fervor do dia-a-dia ou no lazer de uma viagem, não hesite, opte pelo incrível, opte pela qualidade e conforto, opte por Laricell!</p>				
+					<a href="produtos.html" id="btnExploreNow" class="btn">Conheça agora! &#8594;</a><!-- &#8594 defina o símbolo -> -->
+				</section>
+				<section class="col-2">
+					<figure id="fundoSite">
+						<img src="images/fundoIndex.png" alt="fundo do site">					
+					</figure>
+				</section>
+			</section>
+		</section>
+
+		<!--produtos em destaque-->
+		<section id="produtosEmDestaque">
+			<section class="secaoPrincipal">
+				<h2 class="title">Produtos em destaque</h2>
+				<section class="row">
+					<section class="col-4">
+						<figure>
+							<a href="https://www.apple.com/br/iphone-13-pro/" target="_blank"><img src="images/celulares/iphone13.jpg" alt="iPhone 13 Pro"></a>							
+							<h4>iPhone 13 Pro</h4>
+							<section class="avaliacao">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o"></i>
+							</section>
+							<p>500.00$</p>
+						</figure>
+					</section>
+					<section class="col-4">
+						<figure>
+							<a href="https://www.samsung.com/br/smartphones/galaxy-s22-ultra/" target="_blank"><img src="images/celulares/SamsungS22.png" alt="SamsungS22"></a>							
+							<h4>Samsung Galaxy S22 Ultra 5G </h4>
+							<section class="avaliacao">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+							</section>
+							<p>650.00$</p>
+						</figure>
+					</section>
+					<section class="col-4">
+						<figure>
+							<a href="https://xiaomibrloja.com/collections/smartphones/products/redmi-note-11-graphite-gray-4gb-ram-128gb-rom" target="_blank"><img src="images/celulares/Redmi11.png" alt="Redmi11"></a>					
+							<h4>REDMI NOTE 11</h4>
+							<section class="avaliacao">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o"></i>
+								<i class="fa fa-star-o"></i>
+							</section>
+							<p>350.00$</p>
+						</figure>
+					</section>
+					<section class="col-4">
+						<figure>
+							<a href="https://www.apple.com/br/shop/buy-iphone/iphone-12" target="_blank"><img src="images/celulares/Iphone12.png" alt="iphone12"></a>						
+							<h4>iPhone 12 e iPhone 12 mini</h4>
+							<section class="avaliacao">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half-o"></i>
+							</section>
+							<p>500.00$</p>
+						</figure>
+					</section>					
+				</section>
+			</section>
+		</section>
+
+		<!--últimos produtos-->
+		<section id="ultimoProdutos">
+			<section class="secaoPrincipal">
+				<h2 class="title">Últimos produtos</h2>
+				<section class="row">
+					<section class="col-4">
+						<figure>
+							<a href="https://www.samsung.com/br/smartphones/galaxy-z-fold3-5g/" target="_blank"><img src="images/celulares/GalaxyZ.png" alt="Galaxy Z"></a>						
+							<h4>Samsung Galaxy Z Fold 3 5G</h4>
+							<section class="avaliacao">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o"></i>
+							</section>
+							<p>450.00$</p>
+						</figure>
+					</section>
+					<section class="col-4">
+						<figure>
+							<a href="https://xiaomibrloja.com/collections/smartphones/products/redmi-note-10-5g-128gb" target="_blank"><img src="images/celulares/Redmi10.png" alt="Redmi10"></a>						
+							<h4>Redmi Note 10 5G</h4>
+							<section class="avaliacao">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+							</section>
+							<p>440.00$</p>
+						</figure>
+					</section>
+					<section class="col-4">
+						<figure>
+								
+							<a href="https://www.nokia.com/phones/pt_br/nokia-g-50?sku=F16BYA1022032" target="_blank"><img src="images/celulares/NokiaG50.png"  alt="NokiaG50"></a>
+							<h4>Nokia G50</h4>
+							<section class="avaliacao">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o"></i>
+								<i class="fa fa-star-o"></i>
+							</section>
+							<p>100.00$</p>
+						</figure>
+					</section>
+					<section class="col-4">
+						<figure>
+							<a href="https://www.apple.com/br/shop/buy-iphone/iphone-11?afid=p238%7CsKEqd9Kb0-dc_mtid_1870765e38482_pcrid_505632891809_pgrid_115479327270_&cid=aos-br-kwgo-iphone--slid---product-" target="_blank"><img src="images/celulares/iphone.png" alt="iphone11"></a>				
+							<h4>iPhone 11</h4>
+							<section class="avaliacao">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half-o"></i>
+							</section>
+							<p>500.00$</p>
+						</figure>
+					</section>					
+				</section>
+			</section>	
+		</section>
+		<!--ofertas-->
+		<section id="ofertas">
+			<section class="secaoPrincipal">
+				<section class="row">
+					<section class="col-2">
+						<figure>
+							<img src="images/exclusive.png" alt="Smart MI Band" class="img-oferta">
+						</figure>
+					</section>
+					<section class="col-2">
+						<p>Exclusively Available on RedStore</p>
+						<h1>Smart MI Band 4</h1>
+						<small>The MI Smart Band 4 features a 29.9% larger(than MI band 3) AMOLED color full-touch display with adjustable brightness, so everything is clear as can be.</small>
+						<a href="https://www.mi.com/br/mi-smart-band-4/specs/" class="btn" target="_blank">Comprar Agora &#8594;</a>
+					</section>
+				</section>
+			</section>
+		</section>
+		<!--Depoimentos-->
+		<section class="depoimentos">
+			<section class="secaoPrincipal">
+				<h2 class="title">Avaliações</h2>
+				<section class="row">
+					<section class="col-3">
+						<i class="fa fa-quote-left"></i>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<section class="avaliacao">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half-o"></i>
+							</section>
+							<figure>
+								<img src="images/user-1.png" src="usuario 01">
+								<h3>Linda T. Seidel</h3>
+							</figure>
+					</section>
+					<section class="col-3">
+						<i class="fa fa-quote-left"></i>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<section class="avaliacao">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half-o"></i>
+							</section>
+							<figure>
+								<img src="images/user-2.png" src="usuario 02">
+								<h3>Krista L. McQueen</h3>
+							</figure>
+					</section>
+					<section class="col-3">
+						<i class="fa fa-quote-left"></i>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<section class="avaliacao">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half-o"></i>
+							</section>
+							<figure>
+								<img src="images/user-3.png" src="usuario 01">
+								<h3>James E. Anderson</h3>
+							</figure>
+					</section>
+				</section>
+			</section>
+		</section>
+		<footer class="footer">
+			<section class="secaoPrincipal">
+				 <section class="row">
+				 	<section class="footer-col-1">
+				 		<h3>Download Our App</h3>
+				 		<p>Download App for Android and IOS mobile phone</p>
+				 		<section class="app-logo">
+				 			<img src="images/play-store.png" alt="Play Store">
+				 			<img src="images/app-store.png" alt="App Store">
+				 		</section>
+				 	</section>
+				 	<section class="footer-col-2">
+				 		<figure>
+				 			<img src="images/logocerta.png" class="logo_footer">				 			
+				 			<p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Acessible to the Many</p>
+				 		</figure>
+				 	</section>
+				 	<section class="footer-col-3">
+				 		<h3>Useful Links</h3>
+				 		<ul class="useful">
+							<li><a href="">Home</a></li>
+							<li><a href="produtos.html">Produtos</a></li>
+							<li><a href="sobre.html">Sobre</a></li>
+							<li><a href="">Contato</a></li>
+							<li><a href="">Conta</a></li>
+				 		</ul>
+				 	</section>
+				 	<section class="footer-col-4">
+				 		<h3>Follow us</h3>
+				 		<ul>
+				 			<li>Facebook</li>
+				 			<li>Twitter</li>
+				 			<li>Instagram</li>
+				 			<li>Youtube</li>
+				 		</ul>
+				 	</section>
+				 </section>
+				 <hr><!-- Indica uma mudança de contexto-->
+				 <p class="copyright">Copyright 2022 - Programação Web Unesc</p>
+			</section>
+		</footer>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
